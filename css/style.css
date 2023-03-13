@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  border: solid 1px #000;
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+}
+.header {
+  border: solid 1px #000;
+  height: 180px;
+  width: 100%;
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 180px;
+}
+.menu {
+  border: solid 1px #000;
+  height: 50px;
+  width: 100%;
+  background: #ff00ff;
+}
+#main {
+  border: solid 1px #000;
+  height: 400px;
+  width: 100%;
+}
+.sidebar {
+  border: solid 1px #000;
+  height: 390px;
+  width: 20%;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+}
+.maincontent {
+  border: solid 1px #000;
+  height: 390px;
+  width: 79%;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: right;
+}
+.footer {
+  border: solid 1px #000;
+  height: 150px;
+  width: 100%;
+  background: #ff0000;
+}
