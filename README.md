@@ -1,2 +1,2 @@
 # ShopWeb
-Website bán phụ kiện điện tử bằng PHP, MySQL, HTML, CSS.
+A computer workshop website with PHP, MySQL, HTML, CSS.
