@@ -3,49 +3,112 @@ body {
   padding: 0;
 }
 .wrapper {
-  border: solid 1px #000;
+  border: solid 1px #ffffff;
   height: auto;
   width: 90%;
   margin: 0 auto;
 }
 .header {
-  border: solid 1px #000;
+  border: solid 1px #0000ff;
   height: 180px;
   width: 100%;
   background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-size: 100% 180px;
 }
+
 .menu {
-  border: solid 1px #000;
+  border: solid 1px #0022ff;
   height: 50px;
   width: 100%;
-  background: #ff00ff;
+  background: #0008ff;
 }
+ul.list_menu {
+  padding: 0;
+  width: 60%;
+  /* border: solid 1px #48ff00; */
+  list-style: none;
+  margin: 0 auto;
+  line-height: 27px;
+}
+ul.list_menu li:hover {
+  background: #1c2454;
+}
+ul.list_menu li a {
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+}
+ul.list_menu li {
+  float: left;
+
+  margin: 7px;
+  padding: 5px;
+}
+
 #main {
-  border: solid 1px #000;
+  /* border: solid 1px #0000ff; */
   height: 400px;
   width: 100%;
+  float: left;
 }
+
 .sidebar {
-  border: solid 1px #000;
+  border: solid 1px #ff0000;
   height: 390px;
   width: 20%;
   margin-top: 5px;
-  margin-left: 5px;
+  margin-left: 2px;
   float: left;
 }
+ul.list_sidebar {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  /* border: solid 1px #ffffff; */
+  list-style: none;
+  line-height: 27px;
+}
+ul.list_sidebar li:hover {
+  background: rgb(153, 245, 255);
+}
+ul.list_sidebar li a {
+  text-decoration: none;
+  text-align: left;
+  color: #0015ff;
+  display: block;
+}
+ul.list_sidebar li {
+  margin: 7px;
+  padding: 5px;
+}
+
 .maincontent {
-  border: solid 1px #000;
+  border: solid 1px #ff01d5;
   height: 390px;
   width: 79%;
   margin-top: 5px;
   margin-left: 5px;
   float: right;
 }
+ul.product_list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+}
+ul.product_list li {
+  width: 15%;
+}
+ul.product_list li img {
+  width: 100%;
+}
 .footer {
-  border: solid 1px #000;
+  border: solid 1px #00eaff;
   height: 150px;
   width: 100%;
-  background: #ff0000;
+  background: #1100ff;
+}
+.clear {
+  clear: both;
 }
