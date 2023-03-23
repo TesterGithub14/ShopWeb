@@ -36,7 +36,7 @@
                 <ul class="product_list">
                     <li>
                         <img src="images/case.png">
-                        <p>Tên sản phẩm: Thùng custom Galaxy</p>
+                        <p>Tên sản phẩm: Thùng máy custom Galaxy</p>
                         <p>Giá: 16000000 vnd</p>
                     </li>
                 </ul>
