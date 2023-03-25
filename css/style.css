@@ -48,7 +48,7 @@ ul.list_menu li {
 
 #main {
   /* border: solid 1px #0000ff; */
-  height: 400px;
+  height: auto;
   width: 100%;
   float: left;
 }
@@ -85,7 +85,7 @@ ul.list_sidebar li {
 
 .maincontent {
   border: solid 1px #ff01d5;
-  height: 390px;
+  height: auto;
   width: 79%;
   margin-top: 5px;
   margin-left: 5px;
@@ -98,16 +98,42 @@ ul.product_list {
   width: 100%;
 }
 ul.product_list li {
-  width: 15%;
+  width: 18.92%;
+  border: 1px dashed #0400ff;
+  float: left;
+  margin: 5px;
+  background: aqua;
+}
+ul.product_list li a {
+  text-decoration: none;
 }
 ul.product_list li img {
   width: 100%;
+}
+p.price_product {
+  text-align: center;
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+p.title_product {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
 }
 .footer {
   border: solid 1px #00eaff;
   height: 150px;
   width: 100%;
   background: #1100ff;
+}
+p.footer_copyright {
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: yellow;
 }
 .clear {
   clear: both;

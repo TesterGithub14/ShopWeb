@@ -36,15 +36,40 @@
                 <ul class="product_list">
                     <li>
                         <img src="images/case.png">
-                        <p>Tên sản phẩm: Thùng máy custom Galaxy</p>
-                        <p>Giá: 16000000 vnd</p>
+                        <p class="title_product">Tên sản phẩm: Thùng máy custom Galaxy</p>
+                        <p class="price_product">Giá: 16000000 vnd</p>
+                    </li>
+                    <li>
+                        <img src="images/case.png">
+                        <p class="title_product">Tên sản phẩm: Thùng máy custom Galaxy</p>
+                        <p class="price_product">Giá: 16000000 vnd</p>
+                    </li>
+                    <li>
+                        <img src="images/case.png">
+                        <p class="title_product">Tên sản phẩm: Thùng máy custom Galaxy</p>
+                        <p class="price_product">Giá: 16000000 vnd</p>
+                    </li>
+                    <li>
+                        <img src="images/case.png">
+                        <p class="title_product">Tên sản phẩm: Thùng máy custom Galaxy</p>
+                        <p class="price_product">Giá: 16000000 vnd</p>
+                    </li>
+                    <li>
+                        <img src="images/case.png">
+                        <p class="title_product">Tên sản phẩm: Thùng máy custom Galaxy</p>
+                        <p class="price_product">Giá: 16000000 vnd</p>
+                    </li>
+                    <li>
+                        <img src="images/case.png">
+                        <p class="title_product">Tên sản phẩm: Thùng máy custom Galaxy</p>
+                        <p class="price_product">Giá: 16000000 vnd</p>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="clear"></div>
         <div class="footer">
-            <p>footer</p>
+            <p class="footer_copyright">Copyright by NguyenNgocThien_1911065407 - Web Developer 2023</p>
         </div>
 
     </div>
