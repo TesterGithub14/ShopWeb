@@ -9,6 +9,7 @@
         }
         if($tam == 'quanlydanhmucsanpham'){
             include("modules/quanlydanhmucsp/them.php");
+            include("modules/quanlydanhmucsp/lietke.php");
         }
         else{
             include("modules/dashboard.php");
