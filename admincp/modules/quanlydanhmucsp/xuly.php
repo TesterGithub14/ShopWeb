@@ -5,6 +5,6 @@ $thutu = $_POST['thutu'];
 if(isset($_POST['themdanhmuc'])){
     $sql_them = "INSERT INTO danhmuc(tendanhmuc, thutu) VALUE('".$tenloaisp."','".$thutu."')";
     mysqli_query($mysqli,$sql_them);
-    header('Location:../../index.php?acion=quanlydanhmucsanpham');
+    header('Location:../../index.php?action=quanlydanhmucsanpham');
 }
 ?>
