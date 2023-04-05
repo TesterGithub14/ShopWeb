@@ -14,7 +14,15 @@
             include("modules/quanlydanhmucsp/lietke.php");
         }elseif($tam == 'quanlydanhmucsanpham' && $query == 'sua'){
             include("modules/quanlydanhmucsp/sua.php");
-        }else{
+        }
+        elseif($tam == 'quanlysanpham' && $query == 'them'){
+            include("modules/quanlysp/them.php");
+            include("modules/quanlysp/lietke.php");
+        }
+        elseif($tam == 'quanlysanpham' && $query == 'sua'){
+            include("modules/quanlysp/sua.php");
+        }
+        else{
             include("modules/dashboard.php");
         }
     ?>

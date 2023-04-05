@@ -1,16 +1,45 @@
-<p>Thêm danh mục sản phẩm</p>
-<table border="1" width="50%" style="border-collapse: collapse;">
-  <form method="POST" action="modules/quanlydanhmucsp/xuly.php">
+<p>Thêm sản phẩm</p>
+<table border="1" width="100%" style="border-collapse: collapse;">
+  <form method="POST" action="modules/quanlysp/xuly.php">
     <tr>
-      <td>Tên danh mục</td>
-      <td><input type="text" name="tendanhmuc"></td>
+      <td>Tên sản phẩm</td>
+      <td><input type="text" name="tensanpham"></td>
     </tr>
     <tr>
-      <td>Thứ tự</td>
-      <td><input type="text" name="thutu"></td>
+      <td>Mã sản phẩm</td>
+      <td><input type="text" name="masp"></td>
     </tr>
     <tr>
-      <td colspan="2"><input type="submit" name="themdanhmuc" value="Thêm danh mục sản phẩm"></td>
+      <td>Giá sản phẩm</td>
+      <td><input type="text" name="giasp"></td>
+    </tr>
+    <tr>
+      <td>Số lượng</td>
+      <td><input type="text" name="soluong"></td>
+    </tr>
+    <tr>
+      <td>Hình ảnh</td>
+      <td><input type="file" name="hinhanh"></td>
+    </tr>
+    <tr>
+      <td>Tóm tắt</td>
+      <td><textarea row="10" name="tomtat" style="resize: none"></textarea></td>
+    </tr>
+    <tr>
+      <td>Nội dung</td>
+      <td><textarea row="10" name="noidung" style="resize: none"></textarea></td>
+    </tr>
+    <tr>
+      <td>Tình trạng</td>
+      <td>
+        <select>
+          <option>Kích hoạt</option>
+          <option>Ẩn</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><input type="submit" name="themsanpham" value="Thêm sản phẩm"></td>
     </tr>
   </form>
 </table>
