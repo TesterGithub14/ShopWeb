@@ -1,6 +1,6 @@
 <p>Thêm sản phẩm</p>
 <table border="1" width="100%" style="border-collapse: collapse;">
-  <form method="POST" action="modules/quanlysp/xuly.php">
+  <form method="POST" action="modules/quanlysp/xuly.php" enctype="multipart/form-data">
     <tr>
       <td>Tên sản phẩm</td>
       <td><input type="text" name="tensanpham"></td>
@@ -32,9 +32,9 @@
     <tr>
       <td>Tình trạng</td>
       <td>
-        <select>
-          <option>Kích hoạt</option>
-          <option>Ẩn</option>
+        <select name = "tinhtrang">
+          <option value = "1">Kích hoạt</option>
+          <option value = "0">Ẩn</option>
         </select>
       </td>
     </tr>
