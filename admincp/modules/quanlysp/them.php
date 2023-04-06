@@ -23,11 +23,11 @@
     </tr>
     <tr>
       <td>Tóm tắt</td>
-      <td><textarea row="10" name="tomtat" style="resize: none"></textarea></td>
+      <td><textarea rows="10" name="tomtat" style="resize: none"></textarea></td>
     </tr>
     <tr>
       <td>Nội dung</td>
-      <td><textarea row="10" name="noidung" style="resize: none"></textarea></td>
+      <td><textarea rows="10" name="noidung" style="resize: none"></textarea></td>
     </tr>
     <tr>
       <td>Tình trạng</td>
